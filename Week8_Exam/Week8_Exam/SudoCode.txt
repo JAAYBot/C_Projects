@@ -1,0 +1,131 @@
+
+main
+
+	call start program function
+
+	free memory for robots array
+	free memory for jobs_array
+
+Functions
+
+start_program
+
+	declare local variables
+	initalize global varialbes to 0
+
+	while loop
+	output instructions to screen and wait for user input
+	user inputs value
+	switchcase
+	value 1
+	call add_robot function
+	value 2
+	call add_job function
+	value 3
+	call view_robots_information function
+	value 4
+	call view_jobs_information function
+	value 5
+	call sort_robots function
+	value 6
+	call view_individual_job function
+	value 7
+	call sort_jobs_by_date function
+	value 8
+	call set_job_completed
+	value 9
+	call view_jobs_by_robot function
+	value 10
+	call recently_completed_delivery function
+	value 11
+	call save_robots function
+	call save_jobs function
+	set value to exit condition
+	value 12
+	set value to exit condition
+
+	check if exit conditon is met
+
+load_robot_data
+	
+	create new array
+	read data from robots db file into array
+
+load_jobs_data
+	
+	create new array
+	read data from jobs db file into array
+ 
+view_robots_information
+
+	print robots array to screen
+
+view_jobs_information
+
+	print jobs array to screen
+
+add_robot
+
+	expand array to contain one extra struct
+	create new struct
+	read in new struct details
+
+add_job
+
+	expand array to contain one extra struct
+	create new struct
+	read in new struct details
+
+save_robots
+
+	write array to new db file
+	delete old db file
+	rename new file to name of old file
+
+save_jobs
+
+	write array to new file
+	delete old db file
+	rename new file to name of old file
+
+set_job_completed
+
+	call view_jobs_information
+	prompt the user to enter job id
+	on the struct object with that job id set flag to 1
+
+sort_robots
+
+	create temp array same as robots array
+	call bubble sort robots on temp array
+	write temp array to file called reports
+
+bubble_sort_robots
+
+	sort robot array by type
+
+bubble_sort_jobs
+
+	sort robot array by date
+
+view_individual_job
+
+	prompt the user to enter job id
+	print details of struct to screen
+
+sort_jobs_by_date
+
+	create temp array same as jobs array
+	call bubble sort jobs on temp array
+	write temp array to file called reports
+
+view_jobs_by_robot
+
+	print out list of robots with job details
+
+recently_completed_delivery
+
+	print out list of jobs with flag set to complete 
+	and that have timestamp <3 hours ago
+
+

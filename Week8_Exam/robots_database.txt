@@ -1,0 +1,9 @@
+8	20	jobby
+2	20	robby
+6	10	hobby
+3	10	nobby
+5	20	dobby
+1 	10	bobby 
+7	10	wobby
+9	20	sobby
+4	10	lobby

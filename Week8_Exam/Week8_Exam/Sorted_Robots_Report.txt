@@ -1,0 +1,10 @@
+Sorted Robots Report
+
+Id Number	Type Code	Type Name
+
+1		10		Cleaner
+3		10		Cleaner
+5		10		Cleaner
+12		10		Cleaner
+2		20		Courier
+4		20		Courier

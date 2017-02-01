@@ -1,0 +1,19 @@
+﻿Build started 12/4/2016 7:10:56 PM.
+     1>Project "C:\Users\John\Documents\Visual Studio 2015\Projects\NUIG\Workshop7_Assignment1\Workshop7_Assignment1\Workshop7_Assignment1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt Workshop7_Assignment1.c
+         Workshop7_Assignment1.c
+     1>c:\users\john\documents\visual studio 2015\projects\nuig\workshop7_assignment1\workshop7_assignment1\workshop7_assignment1.c(51): warning C4013: 'getch' undefined; assuming extern returning int
+     1>c:\users\john\documents\visual studio 2015\projects\nuig\workshop7_assignment1\workshop7_assignment1\workshop7_assignment1.c(78): warning C4013: 'malloc' undefined; assuming extern returning int
+     1>c:\users\john\documents\visual studio 2015\projects\nuig\workshop7_assignment1\workshop7_assignment1\workshop7_assignment1.c(88): warning C4098: 'read_in_file': 'void' function returning a value
+     1>c:\users\john\documents\visual studio 2015\projects\nuig\workshop7_assignment1\workshop7_assignment1\workshop7_assignment1.c(98): warning C4098: 'print_strings': 'void' function returning a value
+     1>c:\users\john\documents\visual studio 2015\projects\nuig\workshop7_assignment1\workshop7_assignment1\workshop7_assignment1.c(112): warning C4047: '==': 'char *' differs in levels of indirection from 'int'
+     1>c:\users\john\documents\visual studio 2015\projects\nuig\workshop7_assignment1\workshop7_assignment1\workshop7_assignment1.c(120): warning C4098: 'match_strings': 'void' function returning a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\John\Documents\Visual Studio 2015\Projects\NUIG\Workshop7_Assignment1\Debug\Workshop7_Assignment1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\John\Documents\Visual Studio 2015\Projects\NUIG\Workshop7_Assignment1\Debug\Workshop7_Assignment1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\John\Documents\Visual Studio 2015\Projects\NUIG\Workshop7_Assignment1\Debug\Workshop7_Assignment1.lib" /MACHINE:X86 Debug\Workshop7_Assignment1.obj
+         Workshop7_Assignment1.vcxproj -> C:\Users\John\Documents\Visual Studio 2015\Projects\NUIG\Workshop7_Assignment1\Debug\Workshop7_Assignment1.exe
+     1>Done Building Project "C:\Users\John\Documents\Visual Studio 2015\Projects\NUIG\Workshop7_Assignment1\Workshop7_Assignment1\Workshop7_Assignment1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.12
