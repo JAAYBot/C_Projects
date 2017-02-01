@@ -1,0 +1,19 @@
+﻿Build started 11/27/2016 10:09:28 PM.
+     1>Project "C:\Users\John\Documents\Visual Studio 2015\Projects\NUIG\Pass2d_pointer\Pass2d_pointer\Pass2d_pointer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt Testsource.c
+         Testsource.c
+     1>c:\users\john\documents\visual studio 2015\projects\nuig\pass2d_pointer\pass2d_pointer\testsource.c(16): warning C4047: 'function': 'char *(*)[3]' differs in levels of indirection from 'char [4][3]'
+     1>c:\users\john\documents\visual studio 2015\projects\nuig\pass2d_pointer\pass2d_pointer\testsource.c(16): warning C4024: 'bubble_sort_array': different types for formal and actual parameter 1
+     1>c:\users\john\documents\visual studio 2015\projects\nuig\pass2d_pointer\pass2d_pointer\testsource.c(20): warning C4013: 'getch' undefined; assuming extern returning int
+     1>c:\users\john\documents\visual studio 2015\projects\nuig\pass2d_pointer\pass2d_pointer\testsource.c(31): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[3]'
+     1>c:\users\john\documents\visual studio 2015\projects\nuig\pass2d_pointer\pass2d_pointer\testsource.c(31): warning C4024: 'strncpy': different types for formal and actual parameter 2
+     1>c:\users\john\documents\visual studio 2015\projects\nuig\pass2d_pointer\pass2d_pointer\testsource.c(28): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\John\Documents\Visual Studio 2015\Projects\NUIG\Pass2d_pointer\Debug\Pass2d_pointer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\John\Documents\Visual Studio 2015\Projects\NUIG\Pass2d_pointer\Debug\Pass2d_pointer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\John\Documents\Visual Studio 2015\Projects\NUIG\Pass2d_pointer\Debug\Pass2d_pointer.lib" /MACHINE:X86 Debug\Testsource.obj
+         Pass2d_pointer.vcxproj -> C:\Users\John\Documents\Visual Studio 2015\Projects\NUIG\Pass2d_pointer\Debug\Pass2d_pointer.exe
+     1>Done Building Project "C:\Users\John\Documents\Visual Studio 2015\Projects\NUIG\Pass2d_pointer\Pass2d_pointer\Pass2d_pointer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.03
